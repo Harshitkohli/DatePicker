@@ -23,13 +23,7 @@ export class AppComponent implements OnInit{
   constructor(private datePipe: DatePipe){
 this.dateCheck=new DateCheck();
 this.currentDate= new Date();
-this.dateCheck.lastMonth=null;
-this.dateCheck.last15Days=null;
-this.dateCheck.next15Days=null;
-this.dateCheck.next7Days=null;
-this.dateCheck.today=null;
-this.dateCheck.tomorrow=null;
-this.dateCheck.yesterday=null;
+
   }
   ngOnInit(): void {
     
